@@ -12,6 +12,6 @@ public class Students extends People<Person> {
 
     @Override
     public Iterator<Person> iterator() {
-        return new ;
+        return this.personList.iterator();
     }
 }
